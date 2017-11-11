@@ -20,6 +20,7 @@ export { default as Panel }           from './panel/Panel';
 export { default as Horloge }         from './horloge/Horloge';
 export { default as Breadcrumb }      from './breadcrumb/Breadcrumb';
 export { default as Stat }            from './stat/Stat';
+export { default as Ming }            from './ming/Ming';
 export {
   Table,
   TableHeader,

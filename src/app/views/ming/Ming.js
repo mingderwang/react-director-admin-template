@@ -7,12 +7,12 @@ import PropTypes          from 'prop-types';
 import {
   AnimatedView,
   Panel,
-  Stat as StatComponent
+  Ming as StatComponent
 }                         from '../../components';
 import Highlight          from 'react-highlight';
 
 
-class Stat extends PureComponent {
+class Ming extends PureComponent {
   componentWillMount() {
     const { actions: { enterStat } } = this.props;
     enterStat();
@@ -26,7 +26,7 @@ class Stat extends PureComponent {
   render() {
     const source = `
       // import
-      import { Stat } from './_SOMEWHERE_/components';
+      import { Ming } from './_SOMEWHERE_/components';
 
       // in render():
       <div className="row">
@@ -34,14 +34,14 @@ class Stat extends PureComponent {
           <Stat
             statFaIconName="fa-file-o"
             statIconColor="#fa8564"
-            statLabel="99 Projects"
+            statLabel="888 Projects"
           />
         </div>
         <div className="col-md-2">
           <Stat
             statFaIconName="fa-paperclip"
             statIconColor="#45cf95"
-            statLabel="999 Documents"
+            statLabel="877 Documents"
           />
         </div>
         <div className="col-md-2">
@@ -91,7 +91,7 @@ class Stat extends PureComponent {
                   <StatComponent
                     statFaIconName="fa-file-o"
                     statIconColor="#fa8564"
-                    statLabel="99 Projects"
+                    statLabel="9 Projects"
                   />
                 </div>
                 <div className="col-md-2">
@@ -159,4 +159,4 @@ Stat.propTypes= {
   })
 };
 
-export default Stat;
+export default Ming;

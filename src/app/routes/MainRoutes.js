@@ -44,7 +44,7 @@ export const MainRoutes = () => (
 
     <Route exact path="/general" component={GeneralConnected} />
     <Route path="/general/breadcrumb" component={BreadcrumbViewConnected} />
-    <Route path="/general/stat" component={StatViewConnected} />
+    <Route path="/general/ming" component={StatViewConnected} />
     <Route path="/general/basicProgressBars" component={BasicProgressBarConnected} />
     <Route path="/general/tabPanels" component={TabPanelConnected} />
     <Route path="/general/stripedProgressBars" component={StripedProgressBarConnected} />
